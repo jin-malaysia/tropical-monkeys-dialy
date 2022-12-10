@@ -1,0 +1,17 @@
+
+body {
+    margin: 0;
+}
+
+/* ------------------------------------header------------------------------------ */
+
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+    img.head-big {display: none;}
+    img.head-small {display: block;}
+
+    img.head-small {
+        width: 100vw;
+        margin: 0;
+    }
+    
+}
